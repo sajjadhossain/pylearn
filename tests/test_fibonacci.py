@@ -2,7 +2,8 @@
 """
 Test fibonacci function
 """
-from functions.fibonacci import fibonaccci
+from functions.fibonacci import fibonacci, fibonacci_generator
+from classes.fibonacci import FibonacciSequence
 
 def test_fibonacci():
     """
@@ -25,6 +26,30 @@ def test_fibonacci():
         }
     }
     for values in test_value_dictionary_for_fibonacci.values():
-        result = fibonaccci(values["input"])
+        result = fibonacci(values["input"])
         print(f"Expected: {values['output']}, Got: {result}, Value: {values['input']}")
         assert result == values["output"]
+
+def test_fibonacci_generator():
+    """
+    Test Fibonacci generator
+    """
+    results = []
+    fib_gen = fibonacci_generator()
+
+    for _ in range(10):
+        results.append(next(fib_gen))
+
+    assert results == [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+def test_fibonacci_class():
+    """
+    Test Fibonacci class generator
+    """
+    results = []
+    fib = FibonacciSequence(10)
+
+    for number in fib.generate_fibonacci():
+        results.append(number)
+
+    assert results == [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]

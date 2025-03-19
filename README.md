@@ -25,12 +25,20 @@ From [./classes](./classes/)
 
 * [./classes/calculator.py](./classes/calculator.py)
     * [./tests/test_calculator.py](./tests/test_calculator.py)
+* [./classes/fibonacci.py](./classes/fibonacci.py)
+    * [./tests/test_fibonacci.py](./tests/test_fibonacci.py)
 
 
 ## TODO
 - [x] Positional, optional, keyword arguments in a function
 - [x] Lambda function
 - [x] Annotations and Documentation String all functions
+- [ ] Use all type of [data](https://docs.python.org/3/tutorial/datastructures.html)
+- [ ] [Scripts](https://docs.python.org/3/tutorial/modules.html) and modules
+- [ ] [Reading and writing files](https://docs.python.org/3/tutorial/inputoutput.html)
+- [ ] Reproduce and test for [all errors](https://docs.python.org/3/tutorial/errors.html)
+- [ ] [Inheritance, scopes and generators](https://docs.python.org/3/tutorial/classes.html)
+- [ ] [Libraries](https://docs.python.org/3/tutorial/stdlib.html) and [more](https://docs.python.org/3/tutorial/stdlib2.html)
 - [ ] RESTAPI using JSON Schema
 - [x] Make sure to lint code
     * Use spaces around operators and after commas, but not directly inside bracketing constructs: a = f(1, 2) + g(3, 4).
