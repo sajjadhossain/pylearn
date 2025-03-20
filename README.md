@@ -19,6 +19,12 @@ From [./functions](./functions/)
     * [./tests/test_defining_functions.py](./tests/test_defining_functions.py)
 * [./functions/lambda_average.py](./functions/lambda_average.py)
     * [./tests/test_lambda_average.py](./tests/test_lambda_average.py)
+* [./functions/lambda_sort.py](./functions/lambda_sort.py)
+    * [./tests/test_lambda_sort.py](./tests/test_lambda_sort.py)
+* [./functions/yield_primes.py](./functions/yield_primes.py)
+    * [./tests/test_yield_primes.py](./tests/test_yield_primes.py)
+* [./functions/get_even_odd_numbers.py](./functions/get_even_odd_numbers.py)
+    * [./tests/test_get_even_odd_numbers.py](./tests/test_get_even_odd_numbers.py)
 
 ## Clases (Test)
 From [./classes](./classes/)
@@ -27,11 +33,34 @@ From [./classes](./classes/)
     * [./tests/test_calculator.py](./tests/test_calculator.py)
 * [./classes/fibonacci.py](./classes/fibonacci.py)
     * [./tests/test_fibonacci.py](./tests/test_fibonacci.py)
+* [./classes/bank_account.py](./classes/bank_account.py)
+    * [./tests/test_bank_account.py](./tests/test_bank_account.py)
+* [./classes/instance_vs_class.py](./classes/instance_vs_class.py)
+    * [./tests/test_instance_vs_class.py](./tests/test_instance_vs_class.py)
+* [./classes/decorators.py](./classes/decorators.py)
+    * [./tests/test_decorators.py](./tests/test_decorators.py)
+* [./classes/metaclass.py](./classes/metaclass.py)
+    * [./tests/test_metaclass.py](./tests/test_metaclass.py)
+
+## CoderPad (Test)
+From [./coderpad](./coderpad/)
+
+* [./coderpad/improve_performance.py](./coderpad/improve_performance.py)
+    * [./tests/test_improve_performance.py](./tests/test_improve_performance.py)
+* [./coderpad/array_string.py](./coderpad/array_string.py)
+    * [./tests/test_array_string.py](./tests/test_array_string.py)
+* [./coderpad/do_numbers_equal.py](./coderpad/do_numbers_equal.py)
+    * [./tests/test_do_numbers_equal.py](./tests/test_do_numbers_equal.py)
+* [./coderpad/sum_of_squares.py](./coderpad/sum_of_squares.py)
+    * [./tests/test_sum_of_squares.py](./tests/test_sum_of_squares.py)
 
 ## TODO
 - [x] Positional, optional, keyword arguments in a function
 - [x] Lambda function
 - [x] Annotations and Documentation String all functions
+- [x] Meta Classes
+- [x] Decorators
+- [x] Generators
 - [ ] Use all type of [data](https://docs.python.org/3/tutorial/datastructures.html)
 - [ ] [Scripts](https://docs.python.org/3/tutorial/modules.html) and modules
 - [ ] [Reading and writing files](https://docs.python.org/3/tutorial/inputoutput.html)
@@ -40,5 +69,3 @@ From [./classes](./classes/)
 - [ ] [Libraries](https://docs.python.org/3/tutorial/stdlib.html) and [more](https://docs.python.org/3/tutorial/stdlib2.html)
 - [ ] RESTAPI using JSON Schema
 - [x] Make sure to lint code
-    * Use spaces around operators and after commas, but not directly inside bracketing constructs: a = f(1, 2) + g(3, 4).
-    * Name your classes and functions consistently; the convention is to use UpperCamelCase for classes and lowercase_with_underscores for functions and methods. 

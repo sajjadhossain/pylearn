@@ -18,13 +18,13 @@ def log_execution(func):
     return wrapper
 
 @log_execution
-def log_add(a, b):
+def log_add(a: int, b: int) -> int:
     """
     A sum function to test our logging wrapper with
     """
     return a + b
 
-def repeat(number_of_times):
+def repeat(number_of_times: int):
     """
     A decorator that accepts an argument,
     number of times, this wrapper should run

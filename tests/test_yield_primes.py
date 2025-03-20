@@ -11,4 +11,3 @@ def test_yield_primes():
     test_limit = 20
     prime_numbers = list(primes(test_limit))
     assert prime_numbers == [2, 3, 5, 7, 11, 13, 17, 19]
-    

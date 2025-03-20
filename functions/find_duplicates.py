@@ -3,7 +3,7 @@
 Find duplicates
 """
 from typing import Union
- 
+
 def find_duplicates(items: list[Union[int, str]]) -> list[Union[int, str]]:
     """
     Take a list of items,
