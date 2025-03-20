@@ -28,7 +28,6 @@ From [./classes](./classes/)
 * [./classes/fibonacci.py](./classes/fibonacci.py)
     * [./tests/test_fibonacci.py](./tests/test_fibonacci.py)
 
-
 ## TODO
 - [x] Positional, optional, keyword arguments in a function
 - [x] Lambda function
